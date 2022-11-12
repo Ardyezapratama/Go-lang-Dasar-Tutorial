@@ -14,17 +14,6 @@ func main(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*
 * Operasi && (And)
 	- true && ture = true
