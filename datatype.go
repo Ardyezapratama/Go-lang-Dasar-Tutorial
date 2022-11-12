@@ -30,9 +30,10 @@ uint64 = 0 - 18446744073709551615
 float32 = 1.18x10^-38 sampai 3.4x10^38
 float64 = 2.23x10^-308 sampai 1.80x10^308
 
-* Alias 
+* Alias
 merupakan nama lain untuk tipe data yang sudah ada
 byte = uint8
 rune = int32
 int = minimal int32
 uint = minimal uint 32
+*/
