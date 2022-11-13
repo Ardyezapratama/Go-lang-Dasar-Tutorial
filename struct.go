@@ -9,22 +9,29 @@ type Customer struct {
 	Age           int
 }
 
+func (customer Customer) sayHai(name string) {
+	fmt.Println("Heloo", name, "My name is", customer.Name)
+
+}
+
 func main() {
 	var eza Customer
 	eza.Name = "Eza"
 	eza.Address = "Indonesia"
 	eza.Age = 22
 
-	fmt.Println(eza)
+	eza.sayHai("Ardy")
 
-	ardy := Customer{
-		Name:    "Ardy",
-		Address: "Bali",
-		Age:     22,
-	}
+	// fmt.Println(eza)
 
-	fmt.Println(ardy)
+	// ardy := Customer{
+	// 	Name:    "Ardy",
+	// 	Address: "Bali",
+	// 	Age:     22,
+	// }
 
-	pratama := Customer{"Pratama", "Banyuwangi", 22}
-	fmt.Println(pratama)
+	// fmt.Println(ardy)
+
+	// pratama := Customer{"Pratama", "Banyuwangi", 22}
+	// fmt.Println(pratama)
 }
