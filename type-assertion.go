@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func random() interface{} {
-	return true
+	return "eza"
 }
 
 func main() {
